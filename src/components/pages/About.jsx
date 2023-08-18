@@ -6,7 +6,7 @@ import { Config } from "../../Config";
 const About = () => {
   useEffect(() => {
     logEvent(
-      "home",
+      "about",
       {
         category: "user_interaction",
         label: "about",

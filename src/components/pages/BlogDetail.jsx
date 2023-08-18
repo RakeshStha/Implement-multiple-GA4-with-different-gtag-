@@ -6,7 +6,7 @@ import { Config } from "../../Config";
 const BlogDetail = () => {
   useEffect(() => {
     logEvent(
-      "blog",
+      "blog_detail",
       {
         category: "user_interaction",
         label: "blogDetail",
@@ -14,6 +14,8 @@ const BlogDetail = () => {
       [Config.blog_analytic_key]
     );
   }, []);
+
+  console.log("@data", Config);
 
   return (
     <div className="p-10 bg-red-100">

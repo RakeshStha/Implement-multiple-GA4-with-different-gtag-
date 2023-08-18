@@ -6,7 +6,7 @@ import { Config } from "../../Config";
 const BlogsDescription = () => {
   useEffect(() => {
     logEvent(
-      "blog",
+      "blog_description",
       {
         category: "user_interaction",
         label: "blogDescription",
